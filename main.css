@@ -1,0 +1,38 @@
+*{
+    margin: 0%;;
+    padding: 0%;
+}
+.background-image {
+    right: -10px;
+    bottom: -10px;
+    top: -10px;
+    left: -10px;
+    background-image: url("./assets/space.jpg"), radial-gradient(#0F0, #000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+    position: fixed;
+    -webkit-filter: blur(5px);
+    display: block;
+    z-index: -1;
+}
+
+.enter{
+-webkit-filter: blur(0.6px);
+    background: black;
+    padding: 10px 20px 10px 20px;
+    border: 5px double #95e208;
+    box-shadow: 1px 1px 1px #95e208;
+    color:#95e208 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
